@@ -17,13 +17,18 @@ Arduino framework versions of all SunFounder ESP32 tutorials, organized by topic
 ## Structure
 
 ```
-displays/           # LED control, 7-segment, shift registers
-sounds/            # Buzzer and tone generation
-actuators/         # Motors, servos, pumps
-sensors/           # All sensor readings and interactions
-funny_projects/    # Creative projects and games
-bluetooth_sd_camera_speaker/  # Media and communication
-iot_networking/    # WiFi, web servers, cloud integration
+arduino/
+├── actuators/
+├── bluetooth_sd_camera_speaker/
+├── displays/
+│   ├── 7segment/
+│   ├── 74hc595/
+│   ├── fading_led/
+│   └── ...
+├── funny_projects/
+├── iot_networking/
+├── sensors/
+└── sounds/
 ```
 
 ## Key Features

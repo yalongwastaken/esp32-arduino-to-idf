@@ -12,31 +12,42 @@ Following [SunFounder ESP32 Starter Kit tutorials](https://docs.sunfounder.com/p
 ## Structure
 
 ```
-arduino/                    # Arduino framework versions
-├── displays/
-│   ├── hello_led/
-│   ├── fading/
-│   ├── colorful_light/
-│   └── ...
-├── sounds/
+arduino/
 ├── actuators/
-├── sensors/
-├── funny_projects/
 ├── bluetooth_sd_camera_speaker/
-└── iot_networking/
-
-esp-idf/                   # ESP-IDF framework versions
 ├── displays/
-│   ├── hello_led/
-│   ├── fading/
-│   ├── colorful_light/
+│   ├── 7segment/
+│   ├── 74hc595/
+│   ├── fading_led/
 │   └── ...
-├── sounds/
-├── actuators/
-├── sensors/
 ├── funny_projects/
+├── iot_networking/
+├── sensors/
+└── sounds/
+esp-idf/
+├── actuators/
 ├── bluetooth_sd_camera_speaker/
-└── iot_networking/
+├── displays/
+│   ├── 7segment/
+│   ├── 74hc595/
+│   ├── fading_led/
+│   └── ...
+├── funny_projects/
+├── iot_networking/
+├── sensors/
+└── sounds/
+references/
+├── actuators/
+├── bluetooth_sd_camera_speaker/
+├── displays/
+│   ├── 7segment/
+│   ├── 74hc595/
+│   ├── fading_led/
+│   └── ...
+├── funny_projects/
+├── iot_networking/
+├── sensors/
+└── sounds/
 ```
 
 ## Tutorials Included

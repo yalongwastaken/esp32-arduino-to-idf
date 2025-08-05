@@ -102,7 +102,7 @@ void loop()
   // Handle system error state
   if (system_error)
   {
-    Serial.println("ERROR: System in error state, retrying in 1 second");
+    Serial.println("ERROR: LED pin configuration failed - verify board type and pin assignments");
     delay(SYSTEM_ERROR_DELAY_MS);
     return;
   }

@@ -23,13 +23,18 @@ idf.py build flash monitor
 ## Structure
 
 ```
-displays/           # GPIO, PWM, SPI displays
-sounds/            # PWM audio and tone generation  
-actuators/         # Motor control with proper drivers
-sensors/           # ADC, digital I/O, communication protocols
-funny_projects/    # Complex multi-component projects
-bluetooth_sd_camera_speaker/  # Bluetooth, file systems, camera
-iot_networking/    # WiFi, HTTP, MQTT, cloud services
+esp_idf/
+├── actuators/
+├── bluetooth_sd_camera_speaker/
+├── displays/
+│   ├── 7segment/
+│   ├── 74hc595/
+│   ├── fading_led/
+│   └── ...
+├── funny_projects/
+├── iot_networking/
+├── sensors/
+└── sounds/
 ```
 
 ## Key Features
