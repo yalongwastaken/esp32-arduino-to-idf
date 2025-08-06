@@ -23,7 +23,7 @@ idf.py build flash monitor
 ## Structure
 
 ```
-esp_idf/
+esp-idf/
 ├── actuators/
 ├── bluetooth_sd_camera_speaker/
 ├── displays/
